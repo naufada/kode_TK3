@@ -1,0 +1,23 @@
+{
+  "_catatan": "DATA CONTOH. Ganti angka di bawah dengan matriks Allocation, Max, Available yang dibagikan dosen untuk kelas C.",
+  "resources": ["Pompa", "Katup", "I2C"],
+  "resource_desc": ["Kanal pompa air", "Katup irigasi", "Slot akses bus I2C"],
+  "total": [10, 5, 7],
+  "tasks": ["T0", "T1", "T2", "T3", "T4"],
+  "task_desc": ["Kontrol irigasi zona 1", "Kontrol pompa utama", "Pemantau kelembaban tanah", "Pencatat data sensor", "Pengendali pemupukan"],
+  "allocation": [
+    [0, 1, 0],
+    [2, 0, 0],
+    [3, 0, 2],
+    [2, 1, 1],
+    [0, 0, 2]
+  ],
+  "max": [
+    [7, 5, 3],
+    [3, 2, 2],
+    [9, 0, 2],
+    [2, 2, 2],
+    [4, 3, 3]
+  ],
+  "available": [3, 3, 2]
+}
